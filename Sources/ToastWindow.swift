@@ -170,7 +170,7 @@ open class ToastWindow: UIWindow {
     guard let topWindow = self.topWindow(),
       let subviews = self.originalSubviews.allObjects as? [UIView] else { return }
     for subview in subviews {
-      topWindow.addSubview(subview)
+//      topWindow.addSubview(subview)
     }
   }
 
